@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
@@ -7,18 +6,16 @@
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: yunwuxin <448901948@qq.com>
+// | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+// [ 应用入口文件 ]
 namespace think;
 
 // 加载基础文件
-require __DIR__ . '/thinkphp/base.php';
+require __DIR__ . '/../thinkphp/base.php';
 
+// 支持事先使用静态方法设置Request对象和Config对象
 
-
-// 应用初始化
-Container::get('app')->path(__DIR__ . '/application/')->initialize();
-
-// 控制台初始化
-Console::init();
+// 执行应用并响应
+Container::get('app')->run()->send();

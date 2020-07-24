@@ -1,24 +1,24 @@
-#!/usr/bin/env php
 <?php
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006-2018 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006-2019 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: yunwuxin <448901948@qq.com>
+// | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+// [ 应用入口文件 ]
 namespace think;
 
-// 加载基础文件
-require __DIR__ . '/thinkphp/base.php';
+require __DIR__ . '/../vendor/autoload.php';
 
+// 执行HTTP应用并响应
+$http = (new App())->http;
 
+$response = $http->run();
 
-// 应用初始化
-Container::get('app')->path(__DIR__ . '/application/')->initialize();
+$response->send();
 
-// 控制台初始化
-Console::init();
+$http->end($response);

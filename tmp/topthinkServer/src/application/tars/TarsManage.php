@@ -92,8 +92,6 @@ class TarsManage
             $serverInfo->application = $application;
             $serverInfo->serverName = $serverName;
             $serverInfo->pid = $masterPid;
-            
-            print_r($serverInfo);
 
             $serverF = new ServerFSync($host, $port, $objName);
             $serverF->keepAlive($serverInfo);
@@ -104,8 +102,6 @@ class TarsManage
             $adminServerInfo->serverName = $serverName;
             $adminServerInfo->pid = $masterPid;
             $serverF->keepAlive($adminServerInfo);
-	
-					print_r($adminServerInfo);
 
             var_dump(' keepalive ');
         }

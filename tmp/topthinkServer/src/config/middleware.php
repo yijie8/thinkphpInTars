@@ -1,24 +1,18 @@
-#!/usr/bin/env php
 <?php
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006-2018 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: yunwuxin <448901948@qq.com>
+// | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think;
-
-// 加载基础文件
-require __DIR__ . '/thinkphp/base.php';
-
-
-
-// 应用初始化
-Container::get('app')->path(__DIR__ . '/application/')->initialize();
-
-// 控制台初始化
-Console::init();
+// +----------------------------------------------------------------------
+// | 中间件配置
+// +----------------------------------------------------------------------
+return [
+    // 默认中间件命名空间
+    'default_namespace' => 'app\\http\\middleware\\',
+];

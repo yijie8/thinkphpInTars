@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-deploy" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars2php" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/src/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/src/vendor/composer" />
+      <path value="$PROJECT_DIR$/src/vendor/topthink/think-swoole" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-utils" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-report" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-monitor" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-registry" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-client" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/src/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/src/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/routing" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/src/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/src/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-server" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-config" />
+      <path value="$PROJECT_DIR$/src/vendor/phptars/tars-log" />
+      <path value="$PROJECT_DIR$/src/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/src/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/src/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/src/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/src/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/src/vendor/opis/closure" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>
